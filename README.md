@@ -30,4 +30,4 @@ node server.js
 
 http://127.0.0.1:8080
 
-6) Wait for df1 to be discovered and graph to update
+6) Wait for df1 to be discovered and graph to update (see browser console for progress)
