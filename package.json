@@ -4,7 +4,8 @@
   "description": "Experimental df1 (Device Factory 1) in the browser",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "browserify index.js -o public/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/sandeepmistry/df1-browser/issues"
   },
-  "homepage": "https://github.com/sandeepmistry/df1-browser"
+  "homepage": "https://github.com/sandeepmistry/df1-browser",
+  "devDependencies": {
+    "async": "~0.9.0",
+    "d3": "~3.4.8",
+    "browserify": "~4.1.5",
+    "node-static": "~0.7.3",
+    "device-factory1": "git://github.com/sandeepmistry/node-device-factory1",
+    "noble": "~0.3.1"
+  }
 }
